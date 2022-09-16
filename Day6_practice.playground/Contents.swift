@@ -1,3 +1,13 @@
+if let zero = Int("O") {
+print(zero)
+}
+if let one = Int("1") {
+print(one)
+}
+print (Int ("2a") as Any)
+print (Int("a") as Any)
+
+
 let scores = [1, 8, 4, 3, 0, 5, 2]
 var count = 0
 
